@@ -24,8 +24,8 @@ import (
 	"google.golang.org/grpc/status"
 
 	. "github.com/dtomcej-netskope/grpcurl"
-	grpcurl_testing "github.com/fullstorydev/internal/testing"
-	jsonpbtest "github.com/fullstorydev/internal/testing/jsonpb_test_proto"
+	grpcurl_testing "github.com/dtomcej-netskope/grpcurl/internal/testing"
+	jsonpbtest "github.com/dtomcej-netskope/grpcurl/internal/testing/jsonpb_test_proto"
 )
 
 var (
