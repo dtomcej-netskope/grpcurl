@@ -1,12 +1,13 @@
-module github.com/fullstorydev/grpcurl
+module github.com/dtomcej-netskope/grpcurl
 
-go 1.24.0
+go 1.25.1
 
 require (
+	github.com/fullstorydev/grpcurl v1.9.3
 	github.com/golang/protobuf v1.5.4
 	github.com/jhump/protoreflect v1.17.0
 	google.golang.org/grpc v1.61.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.5
 )
 
 require (
